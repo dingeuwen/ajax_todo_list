@@ -1,0 +1,43 @@
+<h3>Add new todo</h3>
+
+<%= render 'form' %>
+
+
+<h3>Listing to-dos</h3>
+<h4> Completed, Task, Deadline </h4>
+<div id="outstanding_todos">
+  
+</div>
+
+
+<h3> Listing completed to-dos </h3>
+<div id="completed_todos">
+
+</div>
+
+
+<!-- 
+<table>
+  <tr>
+    <th>Completed</th>
+    <th>Task</th>
+    <th>Deadline</th>
+    <th></th>
+  </tr>
+
+<% @todos.each do |todo| %>
+  <tr>
+    <td><div class="to_dos"><input type="checkbox"></input></td>
+    <td><%= todo.task %></td>
+    <td><%= todo.deadline %></td>
+    <td><button class="btn btn-danger btn-mini delete_button" type="button">Delete</button></div></td>
+    <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </tr>
+<% end %>
+</table>
+ -->
+<br />
+
+
+
+

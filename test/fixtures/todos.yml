@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  task: MyString
+  completed: false
+  deadline: 2013-04-30
+  removed: false
+
+two:
+  task: MyString
+  completed: false
+  deadline: 2013-04-30
+  removed: false
